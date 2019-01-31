@@ -1,0 +1,3 @@
+[submodule "libraries/easy-table"]
+	path = libraries/easy-table
+	url = https://github.com/easy-csv/easy-table.git
