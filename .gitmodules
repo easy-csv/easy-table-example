@@ -1,1 +1,5 @@
 
+[submodule "easy-table"]
+	path = easy-table
+	url = https://github.com/easy-csv/easy-table.git
+    ignore = dirty
