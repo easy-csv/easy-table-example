@@ -17,6 +17,6 @@ set(table_ser_lib_name TableSerialize)
 
 add_subdirectory(libraries)
 
-add_subdirectory(test1)
+add_subdirectory(example)
 
 

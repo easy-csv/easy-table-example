@@ -12,7 +12,7 @@
 
 std::string table1 =
 {
-	"key,fv1(type=float&none),fv2(type=float),num1(type=num),num2(type=num),txt1(type=text),txt2\r\n" \
+	"key,fv1(type=float),fv2(type=float),num1(type=num),num2(type=num),txt1(type=text),txt2\r\n" \
 	"rrf,451.8589,4.0,1000,9,txt1,98.0f\r\n" \
 	",,,,\r\n"\
 	"fft,f1,f2,n1,n2,txt1,10.0f\r\n"
