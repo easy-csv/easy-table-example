@@ -13,11 +13,12 @@
 
 std::string table1 =
 {
-	"key,fv1(type=float),fv2(type=float),num1(type=num),num2(type=num),txt1(type=text),txt2\r\n" \
-	"rrf,451.8589,4.0,1000,9,txt1,98.0f\r\n" \
-	",,,,\r\n"\
-	"keynn,451.8589,4.0,1000,9,txt1,txt2\r\n" \
-	"fft,f1,f2,n1,n2,txt1,10.0f\r\n"
+	"key,fv1(type=float),fv2(type=float),num1(type=num),num2(type=num),b1(type=bool),b2(type=bool),txt1(type=text),txt2\r\n" \
+	"rrf,451.8589,4.0,1000,9,1,0,txt1,98.0f\r\n" \
+	"keynn,123.8589,789.0,20,30,0,1,txt1,txt2\r\n" \
+	"err,,,,\r\n"\
+	"err,,,,,,,,,,,\r\n"\
+	"fft,f1,f2,n1,n2,,b1,b2,txt1,10.0f\r\n"
 };
 
 using TextStream = tab::TWriteStream<std::basic_stringstream<tab::TextChar>> ;
