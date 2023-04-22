@@ -55,8 +55,10 @@ int main( int argc, char *argv[] )
 		std::wcout << TABLE_TEXT("Record not found.") << std::endl;
 	}
 
+	// get char to block the console window.
+    ::getchar();
 
 
-	std::getchar();
+
     return 0;
 }

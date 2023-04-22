@@ -1,3 +1,4 @@
+project(easy-table-example)
 cmake_minimum_required( VERSION 3.11.0 )
 
 MESSAGE(STATUS "CMAKE SYSTEM NAME: ${CMAKE_SYSTEM_NAME}")
