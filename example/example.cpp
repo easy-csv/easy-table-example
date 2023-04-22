@@ -10,7 +10,7 @@
 #include <stdlib.h>
 #include <string>
 
-
+// the example for easy table.
 std::string table1 =
 {
 	"key,fv1(type=float),fv2(type=float),num1(type=num),num2(type=num),b1(type=bool),b2(type=bool),txt1(type=text),txt2\r\n" \
